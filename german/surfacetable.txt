@@ -1,0 +1,15 @@
+﻿charset,UTF-8
+0,Normal
+1,Verlegenheit
+2,Überraschaung
+3,Nervosität
+4,Entmutigung
+5,Lächeln
+6,Sich schließende Augen
+7,Wütend
+8,Spott
+10,\1-Normal
+11,\1-Sich öffnende Augen
+19,\1-Singend
+20,Schild
+25,Singend

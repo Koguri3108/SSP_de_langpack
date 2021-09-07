@@ -1,0 +1,148 @@
+charset,UTF-8
+
+//Error Message
+error.appinit,Es ist ein Fehler beim Starten der Anwendung aufgetreten.\nBitte ändere die "Exception-Handler" Einstellung um ausführlichere informationen zu bekommen.
+error.apprun,Ein interner Fehler ist bei der ausführung aufgetreten und die Anwendung wurde geschlossen.\nBitte ändere die "Exception-Handler" Einstellung um ausführlichere informationen zu bekommen.
+error.cannotshowusagegraph,Die Startzeit ist unzureichend, Benutzungszeit-Graph kann nicht angezeigt werden. Bitte versuche es nach 1 Minute noch einmal.
+error.invalidipport,Diese Port-Nummer kann nicht verwendet werden. Bitte stelle sie zwischen 1024 und 65535 ein.
+error.sstp.cannotlisten,Es ist etwas mit dem Verbindungssetup der Port-Nummer schief gelaufen.\nBitte überprüfe ob dieser Port nicht auch von einer anderen Anwendung benutzt wird oder ob es sich um eine ungültige Port-Nummer handelt.
+error.nofile,Eine essentielle Datei und/oder Verzeichnis kann nicht gefunden werden.\nBitte installiere SSP neu oder repariere manuell.
+error.browserexec,Der Browser konnte nicht geöffnet werden.\nBitte überprüfe "Einstellungen"->"Anwendungen"->"Browser".
+
+error.tempboot,SSP startet gerade in einem vorläufigen Verzeichnis.
+error.uacboot,SSP startet gerade in einem UAC-geschützten Verzeichnis.
+error.asciiboot,SSP startet gerade in einem problematischen Verzeichnis, dass ein Charakter-Code-Problem hat.
+error.bootanyway,Diese Situation kann Datenverlust zur Folge haben. Soll SSP trotzdem gestartet werden?
+
+//Ask / Info
+info.threadbusy,Some commands are now processing.\nPlease wait some minutes and quit once again.\n\nBist du sicher, dass du die Anwendung vorzeitig schließen möchtest?
+info.compatiblemode,Dieser Ghost braucht wahrscheinlich Unterstützung für eine alte Spezifikation.\nSoll zum Modus für alte Spezifikationen gewechselt werden?
+info.notinstalled,Nicht installiert.\nSoll die Verteilungs-URL geöffnet werden?
+info.delghost,Sind Sie sicher, dass Sie diesen Ghost deinstallieren möchten?\nDiese Aktion kann nicht rückgängig gemacht werden.
+info.netconnection,Es besteht keine Verbindung mit dem Netzwerk oder es wurde eingestellt nachzufragen.\nSoll Netzwerkverbindung hergestellt werden?
+info.sstplog,Bitte gib die maximale Größe des SSTP-Protokolls an.\nWenn die Protokolldatei größer wird als diese Einstellung werden alte Daten gelöscht.
+info.sstpport,Bitte gib die SSTP-Port-Nummer an auf die gehört werden soll.(0-65535)
+info.serikowait,SERIKO-Geschwindigkeit\n(Bitte gib Protzentsatz ein)
+info.charset,Bitte wähle den Standard-Zeichensatz aus.
+info.vanish,Deinstallation ist ausgeschaltet.\nBitte schalte sie ein bevor sie durchegeführt werden kann.
+info.sender,Bitte gib den Sender-Namen ein, den die SHIORI erhalten soll\n(Materia:embryo CROW:crow Default:(empty)/SSP)
+
+info.install.overwrite,Eine Datei mit diesem Namen ist bereits vorhanden.\nMöchtest du sie überscheiben?
+info.install.overwrite.additional,Wähle "Ja" um zu Überschreiben.\nWähle "Nein" um den Namen des Ordners automatisch zu ändern und eine Überschreibung zu verhindern.
+info.install.refresh.a,Es wird versucht eine Neu-Installation über ein vorhandenes Verzeichnis durchzuführen.\nExistierende Daten werden verloren gehen. Soll das Verzeichnis überschrieben werden?
+
+info.install.invalidsupplement,Eine oder mehrere Ergänzungsdateien sind ungültig.\nTrotzdem installieren?
+info.install.select,Bitte wähle einen Installationsort aus.
+
+info.recommended.g-to-b.change,Dieser Balloon wird nicht für die Verwendung mit diesem Ghost empfohlen.\nWenn er verwendet wird kann es sein, dass sich der Ghost merkwürdig verhält.\nSoll er trotzdem verwendet werden?
+info.recommended.g-to-b.delete,Der Balloon "%2" der gelöscht werden soll wird für die Verwendung mit unten stehenden Ghosts empfohlen:\n%1\nSoll er trotzdem gelöscht werden?
+info.recommended.g-to-b.delete.recommend,Der Balloon "%2" der gelöscht werden soll ist für unten stehenden Ghosts vorgesehen:\n%1\nWenn er gelöscht wird kann es sein, dass sich manche Ghosts merkwürdig verhalten.\nSoll er trotzdem gelöscht werden?
+
+info.recommended.b-to-g.change,Dieser Balloon ist ein empfohlener/zugehöriger Balloon für unten stehende Ghosts:\n%1\nEs wird nicht empfohlen diesen Balloon mit anderen Ghosts zu verwenden.\nSoll trotzdem gewechselt werden?
+info.recommended.b-to-g.delete,Alle Ghosts, die zur Verwendung mit diesem Balloon "%1" empfohlen waren, wurden gelöscht.\nSoll dieser Balloon gelöscht werden?
+
+info.toomanyselection,Es wurden zu viele Elemente ausgewählt.\nTrotzdem fortfahren?
+
+info.errorlog,Es gibt ein Fehler- und/oder Warnungs-Protokoll. Klick hier um das Fehler-Protokoll anzuzeigen.
+info.overwrite,Es ist bereits vorhanden.\nÜberschreiben?
+
+info.developer,Schließe dich mir an und werde Entwickler!\nWenn diese Option eingeschaltet ist können Probleme, wie Spoiler, auftreten.\nSoll sie trotzdem eingeschaltet werden?
+
+info.developer.exit,"\- End-Tag ausschalten" Modus eingeschaltet.\nBitte verwende die Einstellungen auf der Entwickleroberfläche um zum Normalbetrieb zurückzukehren.
+info.developer.update,"Update simulieren" Modus eingeschaltet.\nBitte verwende die Einstellungen auf der Entwickleroberfläche um zum Normalbetrieb zurückzukehren.
+
+info.virtualdesktop,Charakter werden auf einem anderen virtuellen Desktop angezeigt.
+
+info.gcsakura.found,Dieser Ghost ist bereits registriert.
+info.gcsakura.deny,Registrierung wurde wegen install.txt or robots.txt Einstellung abgelehnt.
+info.gcsakura.nohomeurl,Erforderliche "homeurl" konnte nicht gefunden werden. Ghosts, die nicht geupdatet werden können, können nicht registriert werden.
+info.gcsakura.nocraftman,"craftman", "craftmanw" und/oder "craftmanurl" konnte nicht gefunden werden. Ghosts mit unvollständiger Author-Information können nicht registriert werden.
+info.gcsakura.disconnect,Verbindung zum Ghost-Capter-Sakura-Server gescheitert.
+
+info.archivepassword.first,Dieses Archiv/diese NAR ist passwort-geschützt.\nBitte gib das Passwort ein.
+info.archivepassword.retry,Dieses Passwort ist nicht korrekt.\nBitte gib das richtige Passwort ein.
+
+info.developer.testupdate,Bitte gib die Anzahl von zu updatenden Dateien an.
+
+//Resource
+resource.common.yesno,Ja,Nein
+resource.common.okcancel,OK,Abbrechen
+resource.common.addmoddel,Hinzufügen,Bearbeiten,Löschen
+resource.common.other,Andere
+resource.common.menu,Menü
+resource.common.sameas,Diese Auswahl auch in Zukunft verwenden.
+resource.common.dontsayagain,Diese Nachricht nicht mehr anzeigen.
+
+resource.listdialoglabel,Name,Author,Pfad,Gruppe,\0Name,\1Name,Installationszeitpunkt,Letztes Update,UpResult
+resource.listdialogfind,Bitte gib den Text ein der gefunden werden soll.
+resource.scriptloglabel,Ghost,Typ,Skript
+
+resource.biff.allaccount,&Alle Konten
+
+resource.browser.select,Wähle den Browser aus
+resource.mailer.select,Wähle das E-Mail-Programm aus
+resource.editor.select,Wähle den Editor aus
+resource.filer.select,Wähle den Datei-Manager aus
+resource.svn.select,Wähle die Subversion EXE aus
+resource.git.select,Wähle die Git EXE aus
+
+resource.sound.select,Audio-Datei
+resource.schedule.date,%d.%d.%d
+resource.rateofuse.menu,Ghost rufen,Ghost schließen,Ghost konnte nicht gefunden werden,Diese Daten löschen
+
+resource.setting.balloon.command,Nichts,Wie Links-Klick,Skriptabbruch,Richtung ändern,Balloon-Abstand ändern,Menü anzeigen,Charakter-Fenster bewegen
+resource.setting.sstp.boot,Nicht Starten,Nur durch Messenger(SSTP/1.5),So viele Ghosts wie möglich starten(IfGhost)
+resource.setting.sstp.close,Nach Balloon-Timeout schließen,Offen lassen,Timer zum Schließen einstellen
+resource.setting.update,Kompatibel mit anderen Clients,Strikt (SSP-Standard),Wiederherstellungsmodus (Alle Dateien überprüfen)
+resource.aboutghost.select,Ghost-Informationen,Shell-Informationen,Balloon-Informationen
+resource.explorer.select,Ghost,Shell,Balloon,RSS/Headline,Plugin
+
+resource.setting.ghostcloseduration,Gib die Zeit, nach der der Ghost geschlossen werden soll, an:
+resource.setting.title,SSP : Einstellungen
+resource.setting.messengerlabel,Benutzername,Adresse,Port,Gruppe
+resource.setting.dirservlabel,Service,Logon,Beschreibung
+resource.setting.ipportlabel,Port,Status
+resource.setting.bifflabel,Konto,Adresse,AutoPrüfZeit
+
+resource.update.latest,SSP ist auf dem neusten Stand.
+resource.update.exist,Es gibt eine neue Version für SSP. Soll sie heruntergeladen werden?
+resource.update.error,Beim Suchen nach einer neuen Version ist ein Fehler aufgetreten.
+
+resource.schedule.type,Event,Meeting,Termin,Reservierung,Zeit-Limit,Party,Date,Aufgabe,Ausflug,Fernsehprogramm,Aufnahme,CD,Spiel,Video,Buch,Veröffentlichung
+
+//Script
+script.biff.check,Posteingang wird auf neue E-Mails überprüft...
+script.updatedata.creating,Netzwork-Update-Datei wird erstellt...
+script.updatedata.created,Netzwork-Update-Datei wurde erfolgreich erstellt.
+script.nar.creating,NAR-Datei wird erstellt...
+script.nar.created,NAR-Datei wurde erfolgreich erstellt.
+
+//Messenger
+messenger.info.deluser,Sollen augewählte Empfänger wirklich gelöscht werden?
+
+//POP
+biff.info.delaccount,Soll das ausgewählte Konto wirklich gelöscht werden?
+
+//LOG
+log.definedtwice,Zwei-mal definiert.
+log.boundrectempty,Hitbox leer.
+log.offset,Offset Fehler.
+log.notfound,Nicht gefunden.
+log.empty,Leer.
+log.noimage,Hat kein Bild.
+log.invalid,Ungültig.
+log.typo,Ungültig.
+log.orphan,Nicht verwendet.
+log.bracebeginnotfound,"{" nicht gefunden.
+log.braceendnotfound,"}" nicht gefunden.
+log.braceextrachar,Zusätzliches Zeichen nach "{" oder "}".
+log.newold,New definition, Alte Version.
+log.oldnew,Old definition, Neue Version.
+log.invalidalias,Ungültiger Alias.
+log.urlslashadd,URL "/" hinzugefügt.
+log.deletetxtconflict,ist auch in delete.txt
+log.compatibility,Kompatibilitäts-Problem in dieser Definition
+log.moduleerror,Kommunikationsfehler. Mögliche Dateibeschädigung.
+log.similar,-- ähnliche Log-Wiederholung : x
+log.pngpna,PNA-Größe stimmt nicht mit PNG-Größe überein oder PNA ist nicht schwarz-weiß : 
+log.lavfilter,Du kannst versuchen LAV Filters ( https://github.com/Nevcairiel/LAVFilters/releases ) zu installieren und SSP neu zu starten um dieses Problem zu beheben.
