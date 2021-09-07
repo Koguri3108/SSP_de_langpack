@@ -38,7 +38,7 @@ craftmanurl,https://koguri3108.tumblr.com
 //menu.font.height,
 
 //homeurl for updating
-homeurl,https://raw.githubusercontent.com/Koguri3108/SSP_de_langpack/main/german
+homeurl,https://cdn.jsdelivr.net/gh/Koguri3108/SSP_de_langpack@main/german/
 
 //Help document URL
 helpurl,http://ssp.shillest.net/ukadoc/ssphelp/
