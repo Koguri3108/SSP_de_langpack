@@ -1,0 +1,48 @@
+on:
+  push:
+    tags:
+    - '*'
+
+name: auto release
+
+jobs:
+  build:
+    name: auto release
+    runs-on: ubuntu-latest
+    steps:
+      - name: tag name
+        id: get_tag_name
+        run: echo TAG_NAME=${GITHUB_REF/refs\/tags\//} >> $GITHUB_ENV
+      - name: install dependencies
+        run: sudo apt-get install p7zip
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: build nars
+        run: |
+          7z a -tzip "german.nar" -mx=9 -mmt -mm=LZMA -md=1536m -mfb=273 -mtc=off -r "german"
+      - name: create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref }}
+          body: |
+	    Download the Language-Pack here - Lade das Sprach-Paket hier herunter
+            ->[Download](https://github.com/Koguri3108/SSP_de_langpack/releases/download/${{ env.TAG_NAME }}/german.nar)<-
+	    
+	    Find information about this Language-Pack on [this Website](https://Koguri3108.github.io/website/de_langpack).
+            Informationen über dieses Sprach-Paket sind auf [dieser Webseite](https://Koguri3108.github.io/website/de_langpack_de) zu finden.
+          draft: false
+          prerelease: false
+      - name: upload german.nar
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./german.nar
+          asset_name: german.nar
+          asset_content_type: application/zip
