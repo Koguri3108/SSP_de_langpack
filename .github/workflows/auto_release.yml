@@ -29,11 +29,11 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: ${{ github.ref }}
           body: |
-	    Download the Language-Pack here - Lade das Sprach-Paket hier herunter
-            ->[Download](https://github.com/Koguri3108/SSP_de_langpack/releases/download/${{ env.TAG_NAME }}/german.nar)<-
-	    
-	    Find information about this Language-Pack on [this Website](https://Koguri3108.github.io/website/de_langpack).
-            Informationen über dieses Sprach-Paket sind auf [dieser Webseite](https://Koguri3108.github.io/website/de_langpack_de) zu finden.
+	    Download the Language-Pack here - Lade das Sprach-Paket hier herunter  
+            ->[Download](https://github.com/Koguri3108/SSP_de_langpack/releases/download/${{ env.TAG_NAME }}/german.nar)<-  
+	      
+	    Find information about this Language-Pack on [this Website](https://Koguri3108.github.io/website/de_langpack).  
+            Informationen über dieses Sprach-Paket sind auf [dieser Webseite](https://Koguri3108.github.io/website/de_langpack_de) zu finden.  
           draft: false
           prerelease: false
       - name: upload german.nar
