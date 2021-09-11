@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
       - name: build nars
         run: |
-          7z a -tzip "german.nar" -mx=9 -mmt -mm=LZMA -md=1536m -mfb=273 -mtc=off -r "german"
+          7z a -tzip "german.nar" -mx=9 -mmt -mtc=off -r "german"
       - name: create release
         id: create_release
         uses: actions/create-release@v1
