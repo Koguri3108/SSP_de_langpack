@@ -15,7 +15,7 @@ error.asciiboot,SSP startet gerade in einem problematischen Verzeichnis, dass ei
 error.bootanyway,Diese Situation kann Datenverlust zur Folge haben. Soll SSP trotzdem gestartet werden?
 
 //Ask / Info
-info.threadbusy,Some commands are now processing.\nPlease wait some minutes and quit once again.\n\nBist du sicher, dass du die Anwendung vorzeitig schließen möchtest?
+info.threadbusy,Einige Befehle werden gerade verarbeitet.\nEs wird empfohlen ein paar Minuten zu warten und es danach noch einmal zu versuchen.\n\nSoll die Anwendung trotzdem vorzeitig geschlossen werden?
 info.compatiblemode,Dieser Ghost braucht wahrscheinlich Unterstützung für eine alte Spezifikation.\nSoll zum Modus für alte Spezifikationen gewechselt werden?
 info.notinstalled,Nicht installiert.\nSoll die Verteilungs-URL geöffnet werden?
 info.delghost,Sind Sie sicher, dass Sie diesen Ghost deinstallieren möchten?\nDiese Aktion kann nicht rückgängig gemacht werden.
