@@ -15,7 +15,7 @@ error.asciiboot,SSP startet gerade in einem problematischen Verzeichnis, dass ei
 error.bootanyway,Diese Situation kann Datenverlust zur Folge haben. Soll SSP trotzdem gestartet werden?
 
 //Ask / Info
-info.threadbusy,Einige Befehle werden gerade verarbeitet.\nEs wird empfohlen ein paar Minuten zu warten und es danach noch einmal zu versuchen.\n\nSoll die Anwendung trotzdem vorzeitig geschlossen werden?
+info.threadbusy,Some commands are now processing.\nPlease wait some minutes and quit once again.\n\nBist du sicher, dass du die Anwendung vorzeitig schließen möchtest?
 info.compatiblemode,Dieser Ghost braucht wahrscheinlich Unterstützung für eine alte Spezifikation.\nSoll zum Modus für alte Spezifikationen gewechselt werden?
 info.notinstalled,Nicht installiert.\nSoll die Verteilungs-URL geöffnet werden?
 info.delghost,Sind Sie sicher, dass Sie diesen Ghost deinstallieren möchten?\nDiese Aktion kann nicht rückgängig gemacht werden.
@@ -48,7 +48,7 @@ info.overwrite,Es ist bereits vorhanden.\nÜberschreiben?
 
 info.developer,Schließe dich mir an und werde Entwickler!\nWenn diese Option eingeschaltet ist können Probleme, wie Spoiler, auftreten.\nSoll sie trotzdem eingeschaltet werden?
 
-info.developer.exit,"\- End-Tag ausschalten" Modus eingeschaltet.\nBitte verwende die Einstellungen auf der Entwickleroberfläche um zum Normalbetrieb zurückzukehren.
+info.developer.exit,"\- End-Tag ausschalten" Modus ist eingeschaltet.\nBitte verwende die Einstellungen auf der Entwickleroberfläche um zum Normalbetrieb zurückzukehren.
 info.developer.update,"Update simulieren" Modus eingeschaltet.\nBitte verwende die Einstellungen auf der Entwickleroberfläche um zum Normalbetrieb zurückzukehren.
 
 info.virtualdesktop,Charakter werden auf einem anderen virtuellen Desktop angezeigt.
@@ -63,6 +63,9 @@ info.archivepassword.first,Dieses Archiv/diese NAR ist passwort-geschützt.\nBit
 info.archivepassword.retry,Dieses Passwort ist nicht korrekt.\nBitte gib das richtige Passwort ein.
 
 info.developer.testupdate,Bitte gib die Anzahl von zu updatenden Dateien an.
+
+info.developer.timemachine,"Systemzeit für SSP ändern (Timemachine)" Funktion ist eingeschaltet.\nBitte verwende die Entwickleroberfläche um zum Normalbetrieb zurückzukehren.
+info.url.ghostboot,Soll der Ghost spezifiziert in der URL, die gerade versucht wird zu öffnen, gestartet werden?
 
 //Resource
 resource.common.yesno,Ja,Nein
