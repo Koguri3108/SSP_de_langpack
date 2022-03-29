@@ -12,6 +12,7 @@ error.browserexec,Der Browser konnte nicht geöffnet werden.\nBitte überprüfe 
 error.tempboot,SSP startet gerade in einem vorläufigen Verzeichnis.
 error.uacboot,SSP startet gerade in einem UAC-geschützten Verzeichnis.
 error.asciiboot,SSP startet gerade in einem problematischen Verzeichnis, dass ein Charakter-Code-Problem hat.
+error.alreadyrunning,SSP ist schon in Betrieb.
 error.bootanyway,Diese Situation kann Datenverlust zur Folge haben. Soll SSP trotzdem gestartet werden?
 
 //Ask / Info
@@ -66,6 +67,9 @@ info.developer.testupdate,Bitte gib die Anzahl von zu updatenden Dateien an.
 
 info.developer.timemachine,"Systemzeit für SSP ändern (Timemachine)" Funktion ist eingeschaltet.\nBitte verwende die Entwickleroberfläche um zum Normalbetrieb zurückzukehren.
 info.url.ghostboot,Soll der Ghost spezifiziert in der URL, die gerade versucht wird zu öffnen, gestartet werden?
+
+info.shortcut.desktop,Soll eine Verknüpfung zu diesem Ghost auf dem Desktop erstellt werden?
+info.shortcut.startup,Soll dieser Ghost immer automatisch gemainsam mit dem Betriebssystem gestartet werden?
 
 //Resource
 resource.common.yesno,Ja,Nein
