@@ -79,6 +79,7 @@ resource.common.other,Andere
 resource.common.menu,Menü
 resource.common.sameas,Diese Auswahl auch in Zukunft verwenden.
 resource.common.dontsayagain,Diese Nachricht nicht mehr anzeigen.
+resource.common.createnew,Neu erstellen
 
 resource.listdialoglabel,Name,Author,Pfad,Gruppe,\0Name,\1Name,Installationszeitpunkt,Letztes Update,UpResult
 resource.listdialogfind,Bitte gib den Text ein der gefunden werden soll.
@@ -119,6 +120,7 @@ resource.schedule.type,Event,Meeting,Termin,Reservierung,Zeit-Limit,Party,Date,A
 
 //Script
 script.biff.check,Posteingang wird auf neue E-Mails überprüft...
+script.biff.result,Es wurden neue E-Mails gefunden.\n%1 E-Mail(s), %2 byte(s).
 script.updatedata.creating,Netzwork-Update-Datei wird erstellt...
 script.updatedata.created,Netzwork-Update-Datei wurde erfolgreich erstellt.
 script.nar.creating,NAR-Datei wird erstellt...
