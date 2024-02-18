@@ -2,4 +2,4 @@ Charset,UTF-8
 homeurl_found,1
 homeurl,https://cdn.jsdelivr.net/gh/Koguri3108/SSP_de_langpack@main/german/
 update_result,OK(0)
-update_time,701375047
+update_time,747241027
